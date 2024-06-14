@@ -1,0 +1,202 @@
+/* Start of Flipkart Policies */
+.main-bottom {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    padding:10px
+  }
+  
+  .bottom-box {
+    color: #444343;
+    background-color: #fff;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .stories {
+    color: #444343;
+    font-weight: 600;
+    margin-top: 14px;
+    font-size: 18px;
+    padding: 14px 0;
+  }
+  
+  .stories a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  .brands {
+    color: #565656;
+    margin-left: 4px;
+  }
+  
+  .Items {
+    margin: 6px 0;
+  }
+  
+  .Items a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  .item-type {
+    color: #757575;
+    text-transform: uppercase;
+    margin-right: 3px;
+    font-size: 17px;
+  }
+  
+  .single-items {
+    padding: 0 5px 0 0;
+    border-right: 1px solid #333;
+    font-size: 16px;
+  }
+  
+  .bottom1 h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  
+  .bottom1 {
+    padding: 0 25px;
+    color: #403f3f;
+    background-color: #fff;
+  }
+  
+  .bottom1 .bottom2 {
+    clear: both;
+    line-height:23px;
+    font-size: 17px;
+    margin: 20px 0 10px;
+    padding-top:15px;
+    padding-bottom:15px;
+  
+  }
+  
+  .bottom1 h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  /* End of Flipkart Policies */
+  
+  /* Start of Footer Section  */
+  footer {
+    background-color: #221a37;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  .F-row-1 {
+    padding: 40px 60px 40px 60px;
+    border-bottom: 1px solid #686868;
+  }
+  
+  .F-row-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .F-row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .F-heading p {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+  }
+  
+  .F-list-address p,
+  .F-list p {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .F-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .F-list a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .F-list a,
+  .F-list p,
+  .F-list-address p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .F-row2-column {
+    color: #fff;
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  
+  .F-column-4 {
+    padding-right: 100px;
+  }
+  
+  .F-column-5 {
+    border-left: 1px solid #686868;
+    padding-left: 30px;
+  }
+  
+  .fas {
+    color: #ffe11b;
+    margin-right: 8px;
+  }
+  /* End of Footer Section  */
+  
+  /* Responsive adjustments */
+  @media only screen and (max-width: 768px) {
+    .main-bottom,
+    .bottom-box,
+    .stories,
+    .brands,
+    .Items,
+    .single-items,
+    .bottom1 {
+      width: 100%;
+      padding: 8px;
+      text-align: center;
+    }
+  
+    .F-row-1,
+    .F-row-2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .F-column-4 {
+      padding-right: 0;
+    }
+  
+    .F-column-5 {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+  
+  
